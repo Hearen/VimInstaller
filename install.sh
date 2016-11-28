@@ -9,7 +9,10 @@
 
 #http://www.fullybaked.co.uk/articles/installing-latest-vim-on-centos-from-source
 
-cp -r etc/vim $HOME/.vim
+echo "Copy vimrc..."
 cp -r etc/vimrc $HOME/.vimrc
-
+echo "Copy colors..."
+cp -r etc/vim/* $HOME/.vim
+echo "Clone Vundle.vim..."
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 echo "Run BundleInstall in vim now!"
