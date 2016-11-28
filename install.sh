@@ -7,4 +7,8 @@
 #   it for basic personal use
 #-------------------------------------------
 
-http://www.fullybaked.co.uk/articles/installing-latest-vim-on-centos-from-source
+#http://www.fullybaked.co.uk/articles/installing-latest-vim-on-centos-from-source
+
+cp -r etc/* $HOME
+
+echo "Run BundleInstall in vim now!"
