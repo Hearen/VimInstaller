@@ -1,7 +1,7 @@
 set nocompatible                " be iMproved
 filetype off                    " required!
 "set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/vundle
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 "let Vundle manage Vundle
 Bundle 'VundleVim/Vundle.vim'
@@ -9,23 +9,23 @@ Bundle 'VundleVim/Vundle.vim'
 "my Bundle here:
 "
 " original repos on github
-Bundle 'kien/ctrlp.vim'
+"Bundle 'kien/ctrlp.vim'
 "Bundle 'sukima/xmledit'
 "Bundle 'sjl/gundo.vim'
 Bundle 'tpope/vim-surround'
 Bundle 'jiangmiao/auto-pairs'
 "Bundle 'klen/python-mode'
 "Bundle 'Valloric/ListToggle'
-Bundle 'Valloric/YouCompleteMe'
-Bundle 'SirVer/ultisnips'
+"Bundle 'Valloric/YouCompleteMe'
+"Bundle 'SirVer/ultisnips'
 Bundle 'honza/vim-snippets'
 "Bundle 'scrooloose/syntastic'
 "Bundle 't9md/vim-quickhl'
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'scrooloose/nerdcommenter'
-Bundle 'scrooloose/nerdtree'
+"Bundle 'scrooloose/nerdtree'
 Bundle 'Yggdroot/indentLine'
-Bundle 'godlygeek/tabular'
+"Bundle 'godlygeek/tabular'
 "..................................
 " vim-scripts repos
 "Bundle 'YankRing.vim'
@@ -44,16 +44,16 @@ filetype plugin indent on
 
 
 "configure YCM 
-let g:ycm_show_diagnostics_ui = 0
-let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/.ycm_extra_conf.py'
-let g:ycm_error_symbol='>>'  
-let g:ycm_warning_symbol='>*' 
-let g:ycm_complete_in_comments = 1 
-let g:ycm_seed_identifiers_with_syntax = 1 
-let g:ycm_collect_identifiers_from_comments_and_strings = 1 
-let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
-let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
-let g:SuperTabDefaultCompletionType = '<C-n>'
+"let g:ycm_show_diagnostics_ui = 0
+"let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/.ycm_extra_conf.py'
+"let g:ycm_error_symbol='>>'  
+"let g:ycm_warning_symbol='>*' 
+"let g:ycm_complete_in_comments = 1 
+"let g:ycm_seed_identifiers_with_syntax = 1 
+"let g:ycm_collect_identifiers_from_comments_and_strings = 1 
+"let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+"let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+"let g:SuperTabDefaultCompletionType = '<C-n>'
 
 "configure SirVer/ultisnips
 set runtimepath+=~/.vim/bundle
