@@ -9,6 +9,7 @@
 
 #http://www.fullybaked.co.uk/articles/installing-latest-vim-on-centos-from-source
 
-cp -r etc/* $HOME
+cp -r etc/vim $HOME/.vim
+cp -r etc/vimrc $HOME/.vimrc
 
 echo "Run BundleInstall in vim now!"
