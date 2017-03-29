@@ -13,7 +13,8 @@ echo "Copy vimrc..."
 cp -r etc/vimrc $HOME/.vimrc
 echo "Copy colors..."
 rm -rf $HOME/.vim/bundle
-cp -r etc/vim/colors $HOME/.vim/
+mkdir -p $HOME/.vim/colors
+cp -r etc/vim/colors $HOME/.vim/colors
 echo "Clone Vundle.vim..."
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 echo "Run BundleInstall in vim now!"
